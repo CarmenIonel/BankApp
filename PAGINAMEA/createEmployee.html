@@ -1,0 +1,41 @@
+<link  rel='stylesheet' type='text/css' href="adminStyle.css">
+<div id="content">
+<form name="/createE" action="/createE">
+    <h1>Create Employee</h1>
+    
+        <p>
+            <label for="name" class="name"> Name
+            </label>
+            <input type="text" name="name" id="name" 							             placeholder="Name" />
+        </p>
+        
+        <p>
+            <label for="address" class="address">Address
+            </label>
+            <input type="address" name="address" id="address" 				            placeholder="Address" />
+        </p>
+
+        <p>
+            <label for="email" class="email"> E-mail</label>
+            <input type="email" name="email" id="email" 			             placeholder="eg: ionel.carmen@yahoo.com" />
+        </p>
+
+		<p>
+            <label for="phone" class="phone"> Phone</label>
+            <input type="text" name="phone" id="phone" 			             placeholder="07xxxxxxxx" required pattern="[07][0-9]{9}"/>
+        </p>
+        
+        <p>
+            <label for="username" class="username"> Username</label>
+            <input type="username" name="username" id="username" 	placeholder="" />
+        </p>
+        
+        <p>
+            <label for="password" class="password"> Password</label>
+            <input type="text" name="password" id="password" placeholder="Minim 6 characters" />
+        </p>
+        <p>
+        <button input type="submit">Create</button>
+   		</p>
+</form>      
+</div>    
